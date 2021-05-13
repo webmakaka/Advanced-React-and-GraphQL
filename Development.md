@@ -6,11 +6,37 @@
 
 <br/>
 
-## 01 - Tooling and Starter Files Setup
+### 01 - Tooling and Starter Files Setup
 
 <br/>
 
-## 02 - The Tech Stack Explained
+### 02 - The Tech Stack Explained
+
+<br/>
+
+## 02 - Learning Next.js
+
+<br/>
+
+### 03 - An intro to Next
+
+    $ cd app/frontend
+    $ yarn install
+    $ yarn dev
+
+http://localhost:7777/
+
+<br/>
+
+### 04 - Creating a Page Layout Component
+
+<br/>
+
+    $ yarn add -D babel-eslint
+
+<br/>
+
+### 05 - Creating our Header and Nav Components
 
 <br/><br/>
 
