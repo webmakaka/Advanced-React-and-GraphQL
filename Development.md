@@ -1,5 +1,17 @@
 # [Wes Bos] Advanced React and GraphQL [2021, ENG]
 
+<br/>
+
+## 01 - Introduction and Setup
+
+<br/>
+
+## 01 - Tooling and Starter Files Setup
+
+<br/>
+
+## 02 - The Tech Stack Explained
+
 <br/><br/>
 
 ---
