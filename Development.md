@@ -38,6 +38,22 @@ http://localhost:7777/
 
 ### 05 - Creating our Header and Nav Components
 
+<br/>
+
+## 03 - CSS and Styled Components
+
+<br/>
+
+### 06 - An Intro to Styled Components and CSS
+
+<br/>
+
+### 07 - Global Styles, Typography and Layout Styles
+
+<br/>
+
+![Application](/img/pic-03-01.png?raw=true)
+
 <br/><br/>
 
 ---
