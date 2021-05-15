@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'dayly'
+  - package-ecosystem: 'npm'
+    directory: '/app/frontend/'
+    schedule:
+      interval: 'dayly'
+  - package-ecosystem: 'npm'
+    directory: '/app/backend/'
+    schedule:
+      interval: 'monthly'

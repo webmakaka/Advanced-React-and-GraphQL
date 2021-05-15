@@ -92,6 +92,12 @@ http://localhost:3000/
 
 ### 15 - Creating our Products Data Type
 
+<br/>
+
+### 16 - Uploading Product Images
+
+cloudinary.com
+
 <br/><br/>
 
 ---
