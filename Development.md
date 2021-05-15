@@ -54,6 +54,36 @@ http://localhost:7777/
 
 ![Application](/img/pic-03-01.png?raw=true)
 
+<br/>
+
+## 04 - Server Side GraphQL Development
+
+<br/>
+
+### 10 - Setting up MongoDB
+
+<br/>
+
+### 11 - An Intro to GraphQL
+
+<br/>
+
+### 12 - Setting up Keystone and Typescript
+
+<br/>
+
+### 13 - Creating our first User data type
+
+    $ cd backend
+    $ docker-compose up
+    $ yarn dev
+
+http://localhost:3000/
+
+<br/>
+
+![Application](/img/pic-04-01.png?raw=true)
+
 <br/><br/>
 
 ---
