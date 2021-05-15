@@ -98,6 +98,14 @@ http://localhost:3000/
 
 cloudinary.com
 
+<br/>
+
+### 16 - Uploading Product Images
+
+<br/>
+
+### 17 - Creating two way data relationships in Keystone
+
 <br/><br/>
 
 ---

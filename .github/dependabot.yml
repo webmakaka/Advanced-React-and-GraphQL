@@ -3,12 +3,12 @@ updates:
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
-      interval: 'dayly'
+      interval: 'monthly'
   - package-ecosystem: 'npm'
     directory: '/app/frontend/'
     schedule:
-      interval: 'dayly'
+      interval: 'daily'
   - package-ecosystem: 'npm'
     directory: '/app/backend/'
     schedule:
-      interval: 'monthly'
+      interval: 'daily'
