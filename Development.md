@@ -120,6 +120,22 @@ cloudinary.com
 
 http://localhost:3000/
 
+<br/>
+
+![Application](/img/pic-04-02.png?raw=true)
+
+<br/>
+
+Need manually update images links.
+
+<br/>
+
+## 05 - Client Side React + GraphQL Development
+
+<br/>
+
+### 19 - Setting up Apollo Client
+
 <br/><br/>
 
 ---
