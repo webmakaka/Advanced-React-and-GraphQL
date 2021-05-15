@@ -106,6 +106,20 @@ cloudinary.com
 
 ### 17 - Creating two way data relationships in Keystone
 
+<br/>
+
+### 17 - Creating two way data relationships in Keystone
+
+<br/>
+
+### 18 - Inserting Seed Data
+
+    $ cd backend
+    $ yarn seed-data
+    $ yarn dev
+
+http://localhost:3000/
+
 <br/><br/>
 
 ---

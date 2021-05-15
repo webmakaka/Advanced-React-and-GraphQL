@@ -5,6 +5,23 @@ https://github.com/wesbos/Advanced-React
 
 <br/>
 
+### How To Run
+
+    $ cd backend
+    $ docker-compose up
+    $ yarn seed-data
+    $ yarn dev
+
+http://localhost:3000/
+
+<br/>
+
+need manually update images links.
+
+<br/>
+
+<br/>
+
 ### [Development](./Development.md)
 
 <br/><br/>
