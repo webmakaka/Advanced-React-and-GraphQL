@@ -7,10 +7,18 @@ import { Core } from '@keystone-ui/core';
 import * as viewc5465613 from '../../../node_modules/@keystone-next/fields/types/mongoId/views';
 import * as view541237f5 from '../../../node_modules/@keystone-next/fields/types/text/views';
 import * as view7d65d00b from '../../../node_modules/@keystone-next/fields/types/password/views';
+import * as view3e78df3d from '../../../node_modules/@keystone-next/fields/types/timestamp/views';
+import * as viewa30514e7 from '../../../node_modules/@keystone-next/fields/types/select/views';
 
 const adminConfig = {};
 
-const fieldViews = { viewc5465613, view541237f5, view7d65d00b };
+const fieldViews = {
+  viewc5465613,
+  view541237f5,
+  view7d65d00b,
+  view3e78df3d,
+  viewa30514e7,
+};
 
 const lazyMetadataQuery = {
   kind: 'Document',
@@ -150,6 +158,29 @@ const lazyMetadataQuery = {
             },
             loc: { start: 22, end: 234 },
           },
+          {
+            kind: 'Field',
+            name: { kind: 'Name', value: 'authenticatedItem' },
+            selectionSet: {
+              kind: 'SelectionSet',
+              selections: [
+                {
+                  kind: 'InlineFragment',
+                  typeCondition: {
+                    kind: 'NamedType',
+                    name: { kind: 'Name', value: 'User' },
+                  },
+                  selectionSet: {
+                    kind: 'SelectionSet',
+                    selections: [
+                      { kind: 'Field', name: { kind: 'Name', value: 'id' } },
+                      { kind: 'Field', name: { kind: 'Name', value: 'name' } },
+                    ],
+                  },
+                },
+              ],
+            },
+          },
         ],
       },
     },
@@ -161,7 +192,7 @@ export default function App({ Component, pageProps }) {
     <Core>
       <KeystoneProvider
         adminConfig={adminConfig}
-        adminMetaHash="wbwjv7"
+        adminMetaHash="10cn37n"
         fieldViews={fieldViews}
         lazyMetadataQuery={lazyMetadataQuery}
       >

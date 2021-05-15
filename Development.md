@@ -84,6 +84,14 @@ http://localhost:3000/
 
 ![Application](/img/pic-04-01.png?raw=true)
 
+<br/>
+
+### 14 - Adding Auth to our Application
+
+<br/>
+
+### 15 - Creating our Products Data Type
+
 <br/><br/>
 
 ---
