@@ -144,6 +144,10 @@ Need manually update images links.
 
 ![Application](/img/pic-05-01.png?raw=true)
 
+<br/>
+
+### 21 - Fixing and Styling the Nav
+
 <br/><br/>
 
 ---

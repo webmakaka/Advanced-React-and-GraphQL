@@ -14,8 +14,8 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      # - name: Checkout commit
-      #   uses: actions/checkout@v2
+      - name: Checkout commit
+        uses: actions/checkout@v2
 
       - name: Checkout config files
         uses: actions/checkout@v2
