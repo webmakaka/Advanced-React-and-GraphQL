@@ -136,6 +136,14 @@ Need manually update images links.
 
 ### 19 - Setting up Apollo Client
 
+<br/>
+
+### 20 - Fetching Data with hooks and Displaying it in our Front End
+
+<br/>
+
+![Application](/img/pic-05-01.png?raw=true)
+
 <br/><br/>
 
 ---

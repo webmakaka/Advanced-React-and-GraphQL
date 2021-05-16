@@ -7,7 +7,8 @@ https://github.com/wesbos/Advanced-React
 
 ### How To Run
 
-    $ cd backend
+    $ cd app/backend
+    $ yarn install
     $ docker-compose up
     $ yarn seed-data
     $ yarn dev
@@ -22,7 +23,13 @@ http://localhost:3000/
 
 Need manually update images links.
 
+<br/>
 
+    $ cd app/frontend
+    $ yarn install
+    $ yarn dev
+
+http://localhost:7777/
 
 <br/>
 
