@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import {useState} from 'react';
 
 export default function userForm(initial = {}) {
   const [inputs, setInputs] = useState(initial);
@@ -10,7 +10,7 @@ export default function userForm(initial = {}) {
     }
 
     if (type === 'file') {
-      value[0] = e.target.files;
+      [value] = e.target.files;
     }
     setInputs({ ...inputs, [name]: value });
   }

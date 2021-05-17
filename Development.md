@@ -156,6 +156,14 @@ Need manually update images links.
 
 ![Application](/img/pic-05-02.png?raw=true)
 
+<br/>
+
+### 23 - Hooking up our File input and Form Styles
+
+<br/>
+
+![Application](/img/pic-05-03.png?raw=true)
+
 <br/><br/>
 
 ---
