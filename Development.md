@@ -180,6 +180,14 @@ Need manually update images links.
 
 ### 26 - Programmatically Changing the Page after product creation
 
+<br/>
+
+### 27 - Displaying Single Items, Routing and SEO
+
+<br/>
+
+![Application](/img/pic-05-05.png?raw=true)
+
 <br/><br/>
 
 ---
