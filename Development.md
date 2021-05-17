@@ -176,6 +176,10 @@ Need manually update images links.
 
 ### 25 - Refetching Queries after a Successful Mutation
 
+<br/>
+
+### 26 - Programmatically Changing the Page after product creation
+
 <br/><br/>
 
 ---
