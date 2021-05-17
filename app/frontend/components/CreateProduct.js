@@ -1,22 +1,62 @@
+import {useMutation} from '@apollo/client';
+import DisplayError from 'components/ErrorMessage';
 import Form from 'components/styles/Form';
+import gql from 'graphql-tag';
 import userForm from 'lib/useForm';
+
+const CREATE_PRODUCT_MUTATION = gql`
+  mutation CREATE_PRODUCT_MUTATION(
+    $name: String!
+    $description: String!
+    $price: Int!
+    $image: Upload
+  ) {
+    createProduct(
+      data: {
+        name: $name
+        description: $description
+        price: $price
+        status: "AVAILABLE"
+        photo: { create: { image: $image, altText: $name } }
+      }
+    ) {
+      id
+      price
+      description
+      name
+    }
+  }
+`;
 
 export default function CreateProduct() {
   const { inputs, handleChange, resetForm, clearForm } = userForm({
     image: '',
     name: 'Nice Shoes',
     price: 120,
-    descripton: 'THese are the best shoes!',
+    description: 'These are the best shoes!',
   });
+
+  const [createProduct, { loading, error, data }] = useMutation(
+    CREATE_PRODUCT_MUTATION,
+    {
+      variables: inputs,
+    }
+  );
 
   return (
     <Form
-      onSubmit={(e) => {
+      onSubmit={async (e) => {
         e.preventDefault();
         console.log(inputs);
+
+        const res = await createProduct();
+        console.log(res);
+        clearForm();
       }}
     >
-      <fieldset>
+      <DisplayError error={error} />
+
+      <fieldset disabled={loading} aria-busy={loading}>
         <label htmlFor="image">
           Image
           <input type="file" id="image" name="image" onChange={handleChange} />
@@ -43,13 +83,13 @@ export default function CreateProduct() {
             onChange={handleChange}
           />
         </label>
-        <label htmlFor="descripton">
+        <label htmlFor="description">
           Deacription
           <textarea
-            id="descripton"
-            name="descripton"
-            placeholder="Descripton"
-            value={inputs.descripton}
+            id="description"
+            name="description"
+            placeholder="Description"
+            value={inputs.description}
             onChange={handleChange}
           />
         </label>

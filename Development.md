@@ -164,6 +164,14 @@ Need manually update images links.
 
 ![Application](/img/pic-05-03.png?raw=true)
 
+<br/>
+
+### 24 - Creating Products via our Mutations
+
+<br/>
+
+![Application](/img/pic-05-04.png?raw=true)
+
 <br/><br/>
 
 ---
