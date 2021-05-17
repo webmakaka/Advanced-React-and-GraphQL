@@ -172,6 +172,10 @@ Need manually update images links.
 
 ![Application](/img/pic-05-04.png?raw=true)
 
+<br/>
+
+### 25 - Refetching Queries after a Successful Mutation
+
 <br/><br/>
 
 ---
