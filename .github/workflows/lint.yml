@@ -46,7 +46,8 @@ jobs:
         run: cd app/backend && npm install
 
       - name: Check ESLint rules
-        run: npx eslint --no-inline-config --config ~/config2021q2/.eslintrc.json --ext .js,.ts src
+        run: ls ~/
+        # run: npx eslint --no-inline-config --config ~/config2021q2/.eslintrc.json --ext .js,.ts src
 
       - name: Check if TypeScript files compiles (conditional)
         run: if find src -type f -name *.ts | grep .; then npx tsc --noEmit --project config2021q2; fi

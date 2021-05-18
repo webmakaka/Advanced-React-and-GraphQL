@@ -188,6 +188,14 @@ Need manually update images links.
 
 ![Application](/img/pic-05-05.png?raw=true)
 
+<br/>
+
+### 28 - Updating Items
+
+<br/>
+
+![Application](/img/pic-05-06.png?raw=true)
+
 <br/><br/>
 
 ---
