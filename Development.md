@@ -196,6 +196,10 @@ Need manually update images links.
 
 ![Application](/img/pic-05-06.png?raw=true)
 
+<br/>
+
+### 29 - Using useEffect to deal with a tricking loading state issue
+
 <br/><br/>
 
 ---
