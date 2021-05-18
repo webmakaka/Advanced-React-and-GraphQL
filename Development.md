@@ -200,6 +200,12 @@ Need manually update images links.
 
 ### 29 - Using useEffect to deal with a tricking loading state issue
 
+<br/>
+
+### 30 - Deleting Products
+
+
+
 <br/><br/>
 
 ---

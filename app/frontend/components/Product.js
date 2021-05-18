@@ -1,3 +1,4 @@
+import DeleteProduct from 'components/DeleteProduct';
 import ItemStyles from 'components/styles/ItemStyles';
 import PriceTag from 'components/styles/PriceTag';
 import Title from 'components/styles/Title';
@@ -27,6 +28,7 @@ export default function Product({ product }) {
         >
           Edit
         </Link>
+        <DeleteProduct id={product.id}>Delete</DeleteProduct>
       </div>
     </ItemStyles>
   );
