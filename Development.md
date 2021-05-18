@@ -208,6 +208,14 @@ Need manually update images links.
 
 ### 31 - Evicting Items from the Apollo Cache
 
+<br/>
+
+## 07 - Pagination
+
+<br/>
+
+### 32 - Pagination Links
+
 <br/><br/>
 
 ---
