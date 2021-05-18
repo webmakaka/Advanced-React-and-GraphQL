@@ -204,7 +204,9 @@ Need manually update images links.
 
 ### 30 - Deleting Products
 
+<br/>
 
+### 31 - Evicting Items from the Apollo Cache
 
 <br/><br/>
 
