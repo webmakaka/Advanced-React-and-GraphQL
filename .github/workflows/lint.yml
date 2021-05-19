@@ -45,8 +45,14 @@ jobs:
         # run: cd app/backend && npm ci
         run: cd app/backend && npm install
 
-      - name: Check ESLint rules
+      - name: Check Folder rules
         run: ls ~/
+
+      - name: Check Folder work
+        run: ls ~/work
+
+      - name: Check ESLint rules
+        run: pwd
         # run: npx eslint --no-inline-config --config ~/config2021q2/.eslintrc.json --ext .js,.ts src
 
       - name: Check if TypeScript files compiles (conditional)

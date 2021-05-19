@@ -216,6 +216,10 @@ Need manually update images links.
 
 ### 32 - Pagination Links
 
+<br/>
+
+### 33 - Pagination Dynamic Routing
+
 <br/><br/>
 
 ---

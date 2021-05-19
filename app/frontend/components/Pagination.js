@@ -25,18 +25,20 @@ export default function Pagintaion({ page }) {
   return (
     <PaginationStyles>
       <Head>
-        <title>Sick Fits {page} of ___</title>
+        <title>
+          Sick Fits {page} of {pageCount}
+        </title>
       </Head>
       <Link href={`/products/${page - 1}`}>
-        <a aria-disabled={page <= 1}>Prev</a>
+        <a aria-disabled={+page <= 1}> ← Prev</a>
       </Link>
       <p>
         Page {page} of {pageCount}{' '}
       </p>
       <p>{count} Items Total</p>
 
-      <Link href={`/products/${page + 1}`}>
-        <a aria-disabled={page >= pageCount}>Next</a>
+      <Link href={`/products/${+page + 1}`}>
+        <a aria-disabled={page >= pageCount}>Next →</a>
       </Link>
     </PaginationStyles>
   );
