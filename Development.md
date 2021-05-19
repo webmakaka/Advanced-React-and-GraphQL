@@ -236,6 +236,14 @@ Need manually update images links.
 
 ![Application](/img/pic-07-01.png?raw=true)
 
+<br/>
+
+## 08 - User Registration + Authentication
+
+<br/>
+
+### 36 - Querying The Current User
+
 <br/><br/>
 
 ---

@@ -1,4 +1,4 @@
-name: Lint
+name: Lint Backend
 
 on:
   pull_request:
@@ -20,9 +20,9 @@ jobs:
       - name: Checkout config files
         uses: actions/checkout@v2
         with:
-          repository: rolling-scopes-school/basic-nodejs-2021Q2
-          ref: course-template-ci
-          path: config2021q2
+          repository: webmakaka/eslinter
+          ref: master
+          path: eslinter
 
       - name: Use Node.js
         uses: actions/setup-node@v2
@@ -54,8 +54,17 @@ jobs:
       # - name: Check Folder ~/work/Advanced-React-and-GraphQL/Advanced-React-and-GraphQL
       #   run: ls ~/work/Advanced-React-and-GraphQL/Advanced-React-and-GraphQL
 
+      - name: PWD
+        run: pwd
+
+      - name: LS
+        run: ls
+
+      - name: npm install
+        run: npm install eslint-plugin-node@latest --save-dev
+
       - name: Check ESLint rules
-        run: npx eslint --no-inline-config --config ~/work/Advanced-React-and-GraphQL/Advanced-React-and-GraphQL/config2021q2/.eslintrc.json --ext .js,.ts src
+        run: npx eslint --no-inline-config --config ~/work/Advanced-React-and-GraphQL/Advanced-React-and-GraphQL/eslinter/.eslintrc.json --ext .js,.ts src
 
       - name: Check if TypeScript files compiles (conditional)
-        run: if find src -type f -name *.ts | grep .; then npx tsc --noEmit --project config2021q2; fi
+        run: if find src -type f -name *.ts | grep .; then npx tsc --noEmit --project eslinter; fi
