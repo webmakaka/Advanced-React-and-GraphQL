@@ -220,6 +220,10 @@ Need manually update images links.
 
 ### 33 - Pagination Dynamic Routing
 
+<br/>
+
+### 34 - Adjusting our Query for Pagination Values
+
 <br/><br/>
 
 ---

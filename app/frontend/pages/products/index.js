@@ -9,7 +9,7 @@ export default function ProductsPage() {
   return (
     <div>
       <Pagintaion page={page || 1} />
-      <Products />
+      <Products page={page || 1} />
       <Pagintaion page={page || 1} />
     </div>
   );

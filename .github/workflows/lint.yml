@@ -29,17 +29,17 @@ jobs:
         with:
           node-version: '14'
 
-      # - name: Cache node modules
-      #   uses: actions/cache@v2
-      #   env:
-      #     cache-name: cache-node-modules
-      #   with:
-      #     path: ~/.npm
-      #     key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-build-${{ env.cache-name }}-
-      #       ${{ runner.os }}-build-
-      #       ${{ runner.os }}-
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
 
       - name: Install Dependencies
         # run: cd app/backend && npm ci
@@ -48,8 +48,11 @@ jobs:
       - name: Check Folder rules
         run: ls ~/
 
-      - name: Check Folder work
-        run: ls ~/work
+      - name: Check Folder ~/work/Advanced-React-and-GraphQL
+        run: ls ~/work/Advanced-React-and-GraphQL
+
+      - name: Check Folder ~/work/Advanced-React-and-GraphQL/Advanced-React-and-GraphQL
+        run: ls ~/work/Advanced-React-and-GraphQL/Advanced-React-and-GraphQL
 
       - name: Check ESLint rules
         run: pwd
