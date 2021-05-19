@@ -45,18 +45,17 @@ jobs:
         # run: cd app/backend && npm ci
         run: cd app/backend && npm install
 
-      - name: Check Folder rules
-        run: ls ~/
+      # - name: Check Folder rules
+      #   run: ls ~/
 
-      - name: Check Folder ~/work/Advanced-React-and-GraphQL
-        run: ls ~/work/Advanced-React-and-GraphQL
+      # - name: Check Folder ~/work/Advanced-React-and-GraphQL
+      #   run: ls ~/work/Advanced-React-and-GraphQL
 
-      - name: Check Folder ~/work/Advanced-React-and-GraphQL/Advanced-React-and-GraphQL
-        run: ls ~/work/Advanced-React-and-GraphQL/Advanced-React-and-GraphQL
+      # - name: Check Folder ~/work/Advanced-React-and-GraphQL/Advanced-React-and-GraphQL
+      #   run: ls ~/work/Advanced-React-and-GraphQL/Advanced-React-and-GraphQL
 
       - name: Check ESLint rules
-        run: pwd
-        # run: npx eslint --no-inline-config --config ~/config2021q2/.eslintrc.json --ext .js,.ts src
+        run: npx eslint --no-inline-config --config ~/work/Advanced-React-and-GraphQL/Advanced-React-and-GraphQL/config2021q2/.eslintrc.json --ext .js,.ts src
 
       - name: Check if TypeScript files compiles (conditional)
         run: if find src -type f -name *.ts | grep .; then npx tsc --noEmit --project config2021q2; fi

@@ -190,11 +190,15 @@ Need manually update images links.
 
 <br/>
 
+## 06 - Working with Mutations
+
+<br/>
+
 ### 28 - Updating Items
 
 <br/>
 
-![Application](/img/pic-05-06.png?raw=true)
+![Application](/img/pic-06-01.png?raw=true)
 
 <br/>
 
@@ -223,6 +227,14 @@ Need manually update images links.
 <br/>
 
 ### 34 - Adjusting our Query for Pagination Values
+
+<br/>
+
+### 35 - Custom Type Policies and Control over the Apollo Cache
+
+<br/>
+
+![Application](/img/pic-07-01.png?raw=true)
 
 <br/><br/>
 
