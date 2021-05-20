@@ -1,4 +1,4 @@
-name: Lint Backend
+name: Lint Frontend
 
 on:
   pull_request:
@@ -35,4 +35,4 @@ jobs:
             ${{ runner.os }}-
 
       - name: Install Dependencies
-        run: cd app/backend && npm install && npm run lint
+        run: cd app/frontend && npm install && npm run lint

@@ -6,10 +6,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "keystone-next",
-    "seed-data": "keystone-next --seed-data"
+    "seed-data": "keystone-next --seed-data",
+    "lint": "eslint *.ts",
+    "lint:fix": "eslint . --fix"
   },
   "eslintConfig": {
-    "extends": "wesbos/typescript.js",
+    "extends": "wesbos",
     "rules": {
       "@typescript-eslint/no-unsafe-assignment": 0
     }

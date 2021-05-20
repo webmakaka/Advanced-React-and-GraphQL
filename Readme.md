@@ -5,6 +5,10 @@ https://github.com/wesbos/Advanced-React
 
 <br/>
 
+### Something wrong with npm again. Use yarn.
+
+<br/>
+
 ### How To Run
 
     $ cd app/backend
