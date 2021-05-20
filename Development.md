@@ -272,6 +272,10 @@ Need manually update images links.
 
 ![Application](/img/pic-08-03.png?raw=true)
 
+<br/>
+
+### 41 - Password Reset - Setting a new Password
+
 <br/><br/>
 
 ---
