@@ -256,6 +256,14 @@ Need manually update images links.
 
 ### 38 - Creating a Sign Out Component
 
+<br/>
+
+### 39 - Creating our Sign Up Flow
+
+<br/>
+
+![Application](/img/pic-08-02.png?raw=true)
+
 <br/><br/>
 
 ---
