@@ -3,11 +3,11 @@ import Error from 'components/ErrorMessage';
 import Form from 'components/styles/Form';
 import { CURRENT_USER_QUERY } from 'components/User';
 import gql from 'graphql-tag';
-import userForm from 'lib/useForm';
+import useForm from 'lib/useForm';
 
 const SIGNIN_MUTATION = gql`
   mutation SIGNIN_MUTATION($email: String!, $password: String!) {
-    authenticateUserWIthPassword(email: $email, password: $password) {
+    authenticateUserWithPassword(email: $email, password: $password) {
       ... on UserAuthenticationWithPasswordSuccess {
         item {
           id
@@ -24,7 +24,7 @@ const SIGNIN_MUTATION = gql`
 `;
 
 export default function SignIn() {
-  const { inputs, handleChange, resetForm } = userForm({
+  const { inputs, handleChange, resetForm } = useForm({
     email: '',
     password: '',
   });
@@ -36,15 +36,14 @@ export default function SignIn() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-    console.log(inputs);
     await signin();
     resetForm();
   }
 
   const error =
-    data?.authenticateUserWIthPassword.__typename ===
-    'authenticateUserWIthPasswordFailure'
-      ? data?.authenticateUserWIthPassword
+    data?.authenticateUserWithPassword.__typename ===
+    'UserAuthenticationWithPasswordFailure'
+      ? data?.authenticateUserWithPassword
       : undefined;
 
   return (
@@ -68,7 +67,7 @@ export default function SignIn() {
           <input
             type="password"
             name="password"
-            placeholder="Your password Address"
+            placeholder="Your Password"
             autoComplete="password"
             value={inputs.password}
             onChange={handleChange}

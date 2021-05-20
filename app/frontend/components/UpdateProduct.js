@@ -3,7 +3,7 @@ import DisplayError from 'components/ErrorMessage';
 import { SINGLE_ITEM_QUERY } from 'components/SingleProduct';
 import Form from 'components/styles/Form';
 import gql from 'graphql-tag';
-import userForm from 'lib/useForm';
+import useForm from 'lib/useForm';
 
 const UPDATE_RPODUCT_MUTATION = gql`
   mutation UPDATE_PRODUCT_MUTATION(
@@ -36,9 +36,7 @@ export default function UpdateProduct({ id }) {
     { data: updateDate, error: updateError, loading: updateLoading },
   ] = useMutation(UPDATE_RPODUCT_MUTATION);
 
-  const { inputs, handleChange, resetForm, clearForm } = userForm(
-    data?.Product
-  );
+  const { inputs, handleChange, resetForm, clearForm } = useForm(data?.Product);
 
   if (loading) return <p>Loading...</p>;
 

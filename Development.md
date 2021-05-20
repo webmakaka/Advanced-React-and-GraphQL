@@ -252,6 +252,10 @@ Need manually update images links.
 
 ![Application](/img/pic-08-01.png?raw=true)
 
+<br/>
+
+### 38 - Creating a Sign Out Component
+
 <br/><br/>
 
 ---

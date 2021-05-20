@@ -3,7 +3,6 @@ import DisplayError from 'components/ErrorMessage';
 import { ALL_PRODUCTS_QUERY } from 'components/Products';
 import Form from 'components/styles/Form';
 import gql from 'graphql-tag';
-import userForm from 'lib/useForm';
 import Router from 'next/router';
 
 const CREATE_PRODUCT_MUTATION = gql`
@@ -31,7 +30,7 @@ const CREATE_PRODUCT_MUTATION = gql`
 `;
 
 export default function CreateProduct() {
-  const { inputs, handleChange, resetForm, clearForm } = userForm({
+  const { inputs, handleChange, resetForm, clearForm } = useForm({
     image: '',
     name: 'Nice Shoes',
     price: 120,
