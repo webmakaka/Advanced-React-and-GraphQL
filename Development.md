@@ -264,6 +264,14 @@ Need manually update images links.
 
 ![Application](/img/pic-08-02.png?raw=true)
 
+<br/>
+
+### 40 - Password Reset - Requesting a Reset
+
+<br/>
+
+![Application](/img/pic-08-03.png?raw=true)
+
 <br/><br/>
 
 ---
