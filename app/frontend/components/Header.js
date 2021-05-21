@@ -1,3 +1,4 @@
+import Cart from 'components/Cart';
 import Nav from 'components/Nav';
 import Link from 'next/link';
 import styled from 'styled-components';
@@ -46,6 +47,7 @@ export default function Header() {
       <div className="sub-bar">
         <p>Search</p>
       </div>
+      <Cart />
     </HeaderStyles>
   );
 }

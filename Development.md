@@ -299,9 +299,19 @@ Address endings on 0.
 
 ### 43 - Cart - Creating the Data Type and Two Way Relationships
 
+Need to manually create some CartItems
+
 <br/>
 
 ![Application](/img/pic-09-01.png?raw=true)
+
+<br/>
+
+### 44 - Cart - Displaying Items in a Custom Component
+
+<br/>
+
+![Application](/img/pic-09-02.png?raw=true)
 
 <br/><br/>
 
