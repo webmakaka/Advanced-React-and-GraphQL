@@ -6,6 +6,7 @@ import {
 } from '@keystone-next/keystone/session';
 import 'dotenv/config';
 import { sendPasswordResetEmail } from './lib/mail';
+import { CartItem } from './schemas/CartItem';
 import { Product } from './schemas/Product';
 import { ProductImage } from './schemas/ProductImage';
 import { User } from './schemas/User';
@@ -56,6 +57,7 @@ export default withAuth(
       User,
       Product,
       ProductImage,
+      CartItem,
     }),
     ui: {
       isAccessAllowed: ({ session }) => !!session?.data,
