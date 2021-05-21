@@ -276,6 +276,21 @@ Need manually update images links.
 
 ### 41 - Password Reset - Setting a new Password
 
+<br/>
+
+### 42 - Password Reset - sending the email
+
+Not Works for me for now! I do not know the reason.
+
+<br/>
+
+```
+$ nslookup smtp.ethereal.email
+Address: 13.49.22.0
+```
+
+Address endings on 0.
+
 <br/><br/>
 
 ---
