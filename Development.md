@@ -293,6 +293,18 @@ Address endings on 0.
 
 <br/>
 
+```
+$ telnet smtp.ethereal.email 25
+Trying 13.49.22.0...
+Connected to smtp.ethereal.email.
+Escape character is '^]'.
+220 mx.ethereal.email ESMTP Ethereal MX
+```
+
+Looks problem on my side.
+
+<br/>
+
 ## 09 - Shopping Cart Development
 
 <br/>
@@ -331,6 +343,10 @@ mutation{
   }
 }
 ```
+
+<br/>
+
+### 47 - Cart - Adding Items To Cart in React
 
 <br/><br/>
 
