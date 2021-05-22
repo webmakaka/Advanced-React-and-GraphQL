@@ -1,3 +1,4 @@
+import RemoveFromCart from 'components/RemoveFromCart';
 import CartStyles from 'components/styles/CartStyles';
 import CloseButton from 'components/styles/CloseButton';
 import Supreme from 'components/styles/Supreme';
@@ -42,6 +43,7 @@ function CartItem({ cartItem }) {
           </em>
         </p>
       </div>
+      <RemoveFromCart id={cartItem.id} />
     </CartItemStyles>
   );
 }

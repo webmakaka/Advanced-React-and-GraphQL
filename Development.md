@@ -352,6 +352,14 @@ mutation{
 
 ### 48 - Cart - Animating the Cart Cart Value
 
+<br/>
+
+### 49 - Cart - Remove From Cart Button
+
+<br/>
+
+### 50 - Cart - Evicting Cart Items from the Cache
+
 <br/><br/>
 
 ---
