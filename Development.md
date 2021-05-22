@@ -348,6 +348,10 @@ mutation{
 
 ### 47 - Cart - Adding Items To Cart in React
 
+<br/>
+
+### 48 - Cart - Animating the Cart Cart Value
+
 <br/><br/>
 
 ---

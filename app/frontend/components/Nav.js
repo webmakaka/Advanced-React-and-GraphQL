@@ -1,3 +1,4 @@
+import CartCount from 'components/CartCount';
 import SignOut from 'components/SignOut';
 import NavStyles from 'components/styles/NavStyles';
 import { useUser } from 'components/User';
@@ -18,6 +19,12 @@ export default function Nav() {
           <SignOut />
           <button type="button" onClick={openCart}>
             My Cart
+            <CartCount
+              count={user.cart.reduce(
+                (tally, cartItem) => tally + cartItem.quantity,
+                0
+              )}
+            />
           </button>
         </>
       )}
