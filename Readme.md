@@ -1,5 +1,7 @@
 # [Wes Bos] Advanced React and GraphQL [2021, ENG]
 
+<br/>
+
 **Original src:**  
 https://github.com/wesbos/Advanced-React
 

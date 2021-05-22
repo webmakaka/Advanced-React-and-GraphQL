@@ -317,6 +317,21 @@ Need to manually create some CartItems
 
 ### 45 - Cart - Using Recat Context for our Cart State
 
+<br/>
+
+### 46 - Cart - Adding Items to Cart
+
+<br/>
+
+```
+mutation{
+  addToCart(productId: "60a6ca8acec64c7d493aadf5"){
+    id
+    quantity
+  }
+}
+```
+
 <br/><br/>
 
 ---
