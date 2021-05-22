@@ -313,6 +313,10 @@ Need to manually create some CartItems
 
 ![Application](/img/pic-09-02.png?raw=true)
 
+<br/>
+
+### 45 - Cart - Using Recat Context for our Cart State
+
 <br/><br/>
 
 ---
