@@ -360,6 +360,18 @@ mutation{
 
 ### 50 - Cart - Evicting Cart Items from the Cache
 
+<br/>
+
+## 10 - Search
+
+<br/>
+
+### 51 - Search
+
+<br/>
+
+![Application](/img/pic-10-01.png?raw=true)
+
 <br/><br/>
 
 ---
