@@ -386,6 +386,24 @@ stripe.com -> create a new account
 
 ![Application](/img/pic-11-01.png?raw=true)
 
+<br/>
+
+### 53 - Writing our Client Side Checkout Handler Logic
+
+```
+Test Card:
+4242 4242 4242 4242
+02 22 222 22222
+```
+
+<br/>
+
+### 54 - Creating our Order and OrderItem Data Types
+
+<br/>
+
+![Application](/img/pic-11-02.png?raw=true)
+
 <br/><br/>
 
 ---
