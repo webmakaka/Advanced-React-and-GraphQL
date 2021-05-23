@@ -52,7 +52,7 @@ export default function UpdateProduct({ id }) {
             price: inputs.price,
           },
         });
-        console.log(res);
+        // console.log(res);
 
         // TODO: Handle Submit
 

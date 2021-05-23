@@ -1,3 +1,4 @@
+import { Checkout } from 'components/Checkout';
 import RemoveFromCart from 'components/RemoveFromCart';
 import CartStyles from 'components/styles/CartStyles';
 import CloseButton from 'components/styles/CloseButton';
@@ -66,6 +67,7 @@ export default function Cart() {
       </ul>
       <footer>
         <p>{formatMoney(calcTotalPrice(me.cart))}</p>
+        <Checkout />
       </footer>
     </CartStyles>
   );

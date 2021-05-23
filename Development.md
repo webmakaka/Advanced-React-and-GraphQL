@@ -372,6 +372,20 @@ mutation{
 
 ![Application](/img/pic-10-01.png?raw=true)
 
+<br/>
+
+## 11 - Order Creation and Checkout
+
+<br/>
+
+### 52 - Setting Up our Stripe Checkout
+
+stripe.com -> create a new account
+
+<br/>
+
+![Application](/img/pic-11-01.png?raw=true)
+
 <br/><br/>
 
 ---
