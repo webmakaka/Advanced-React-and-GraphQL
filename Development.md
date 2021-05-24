@@ -434,7 +434,19 @@ Test Card:
 
 <br/>
 
+http://localhost:7777/order/60abfa2b656a0c578a11dfda
+
+<br/>
+
 ![Application](/img/pic-12-01.png?raw=true)
+
+<br/>
+
+### 60 - Displaying All Orders
+
+<br/>
+
+![Application](/img/pic-12-02.png?raw=true)
 
 <br/><br/>
 
