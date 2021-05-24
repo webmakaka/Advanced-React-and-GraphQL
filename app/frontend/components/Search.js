@@ -7,7 +7,7 @@ import {
 import { resetIdCounter, useCombobox } from 'downshift';
 import gql from 'graphql-tag';
 import { debounce } from 'lodash';
-import { useRouter } from 'node_modules/next/dist/client/router';
+import { useRouter } from 'next/dist/client/router';
 
 const SEARCH_PRODUCTS_QUERY = gql`
   query SEARCH_PRODUCTS_QUERY($searchTerm: String!) {

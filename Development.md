@@ -404,6 +404,26 @@ Test Card:
 
 ![Application](/img/pic-11-02.png?raw=true)
 
+<br/>
+
+### 55 - Custom Checkout Mutation with Stripe
+
+<br/>
+
+### 56 - Linking up our Frontend to the custom backend checkout mutation
+
+<br/>
+
+### 57 - Creating our Order and OrderItems in our Mutation
+
+<br/>
+
+### 58 - Finishing up the Checkout UI and Flow
+
+<br/>
+
+![Application](/img/pic-11-03.png?raw=true)
+
 <br/><br/>
 
 ---
