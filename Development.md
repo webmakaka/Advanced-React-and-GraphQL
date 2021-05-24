@@ -424,6 +424,18 @@ Test Card:
 
 ![Application](/img/pic-11-03.png?raw=true)
 
+<br/>
+
+## 12 - Frontend Order Displaying
+
+<br/>
+
+### 59 - Displaying a Single Order
+
+<br/>
+
+![Application](/img/pic-12-01.png?raw=true)
+
 <br/><br/>
 
 ---
