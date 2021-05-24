@@ -448,6 +448,22 @@ http://localhost:7777/order/60abfa2b656a0c578a11dfda
 
 ![Application](/img/pic-12-02.png?raw=true)
 
+<br/>
+
+## 13 - Roles, Permissions and Restricting Access
+
+<br/>
+
+### 61 - Roles and Permissions - A Primer
+
+<br/>
+
+### 62 - Creating the Roles and Permissions Schema + UI
+
+<br/>
+
+![Application](/img/pic-13-01.png?raw=true)
+
 <br/><br/>
 
 ---
