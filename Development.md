@@ -468,6 +468,36 @@ http://localhost:7777/order/60abfa2b656a0c578a11dfda
 
 ### 63 - Basic Access Control via Sessions
 
+<br/>
+
+### 64 - Permissions Access Functions
+
+<br/>
+
+### 65 - More Flexible Rule Based Functions
+
+<br/>
+
+### 66 - Getting Meta - Roles based Roles and Hiding UI
+
+Create Role -> Editor
+
+<br/>
+
+### 67 - Cart and Order based Rules
+
+<br/>
+
+### 68 - User and Field Based Permissions
+
+<br/>
+
+### 69 - Product Image Permissions
+
+<br/>
+
+### 70 - Creating a Gated Sign In Component
+
 <br/><br/>
 
 ---
